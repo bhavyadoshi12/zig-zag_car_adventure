@@ -1,105 +1,201 @@
-# Zig-Zag_Car_Adventure
+# 🚗 Zig-Zag Car Adventure
 
-Welcome to **Zig Zag Car Game**! This is an exciting Unity-based mobile game where players navigate a car through zig-zag platforms, collect diamonds and stars, and compete for high scores. The game features Firebase authentication for user accounts, car selection, and integrated ads for monetization.
+<p align="center">
+  <img src="Banner.png" alt="Zig-Zag Car Adventure Banner" />
+</p>
 
-## 🎮 Project Description
+<p align="center">
+  <b>A Fast-Paced Endless Runner Mobile Game Built with Unity, Firebase & C#</b>
+</p>
 
-Zig Zag Car is a fast-paced endless runner game built in Unity using C#. Players control a car that moves automatically, and they must tap to switch lanes to avoid obstacles and collect items. The game includes user authentication via Firebase, allowing players to sign up, log in, and track their progress.
+<p align="center">
+  <img src="https://img.shields.io/badge/Unity-2021%2B-black?logo=unity" />
+  <img src="https://img.shields.io/badge/C%23-Programming-blue?logo=csharp" />
+  <img src="https://img.shields.io/badge/Firebase-Authentication-orange?logo=firebase" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS-green" />
+  <img src="https://img.shields.io/badge/Status-Production%20Ready-success" />
+</p>
+
+---
+
+## 🎮 Overview
+
+**Zig-Zag Car Adventure** is a thrilling endless runner where players drive a car across zig-zag paths, collect diamonds, unlock vehicles, and challenge high scores.  
+
+Built with **Unity**, powered by **Firebase Authentication**, and monetized with **Unity Ads** — fully optimized for mobile devices.
+
+---
 
 ## ✨ Features
 
-- 🚗 **Car Selection**: Choose from multiple stylized vehicles to customize your gameplay experience.
-- 🔐 **Firebase Authentication**: Secure user login, signup, and profile management with email/password.
-- 💎 **Scoring System**: Collect diamonds and stars, track high scores, and replay with previous scores.
-- 🎯 **Endless Gameplay**: Dynamic platform spawning for infinite fun.
-- 📱 **Mobile Optimized**: Designed for touch controls and mobile devices.
-- 📢 **Unity Ads Integration**: Monetize with rewarded and interstitial ads.
-- 🎨 **Stylized Graphics**: High-quality assets including HDRI environments and TextMesh Pro UI.
+### 🚗 Car Systems
+- Unlockable cars  
+- Dynamic car selection menu  
+- Smooth transitions & animations  
 
-## 🛠️ Setup Instructions
+### 🔐 Firebase Authentication
+- Email / Password login  
+- Password recovery  
+- Real-time validation & error alerts  
 
-Follow these steps to set up and run the project on your local machine.
+### 🎮 Gameplay
+- Procedural infinite zig-zag tracks  
+- One-tap gameplay  
+- Diamonds & star-based scoring  
+- High score tracking  
 
-### Prerequisites
-- **Unity Hub**: Download and install from [unity.com](https://unity.com/download).
-- **Unity Version**: Ensure you have Unity 2021 or later (check ProjectSettings/ProjectVersion.txt for exact version).
-- **Firebase Account**: Create a project at [Firebase Console](https://console.firebase.google.com/).
-- **Git**: For cloning the repository (optional).
+### 📢 Monetization
+- Rewarded Ads  
+- Interstitial Ads  
 
-### Step-by-Step Setup
+### 🎨 UI & UX
+- Modern UI using TextMesh Pro  
+- Mobile-friendly UX  
+- Clean animations  
 
-1. **Clone or Download the Project** 📥
-   - Download the project zip or clone it using Git:
-     ```
-     git clone <repository-url>
-     cd "Zig Zag Car"
-     ```
+---
 
-2. **Open in Unity Hub** 🚀
-   - Launch Unity Hub.
-   - Click **Add** and select the project folder (`d:/Project Folder/Zig Zag Car`).
-   - Open the project in Unity Editor.
+## 📸 Preview
 
-3. **Configure Firebase** 🔥
-   - In Firebase Console, create a new project or use an existing one.
-   - Download `google-services.json` (for Android) and `GoogleService-Info.plist` (for iOS) from Firebase settings.
-   - Place these files in `Assets/` (they are already present; update if needed).
-   - Enable Authentication in Firebase Console (Email/Password provider).
+### 🔐 Authentication Flow
+<p align="center">
+  <img src="Output_Images/01.GameLogo.png" width="200" />
+  <img src="Output_Images/02.SignupPage.png" width="200" />
+  <img src="Output_Images/03.SignInPage.png" width="200" />
+  <img src="Output_Images/04.ForgetPassword.png" width="200" />
+</p>
 
-4. **Install Dependencies** 📦
-   - Unity will automatically resolve packages from `Packages/manifest.json`.
-   - Key packages include:
-     - Firebase SDK (via Assets/Firebase)
-     - Unity Ads (com.unity.ads)
-     - TextMesh Pro (com.unity.textmeshpro)
+### 🚗 Car Selection & Store
+<p align="center">
+  <img src="Output_Images/07.SelectCar01.png" width="200" />
+  <img src="Output_Images/08.SelectCar02.png" width="200" />
+  <img src="Output_Images/09.BuyCar.png" width="200" />
+</p>
 
-5. **Build the Project** 🏗️
-   - Go to **File > Build Settings**.
-   - Select your target platform (Android/iOS).
-   - Click **Build** and choose an output folder.
-   - For Android: Ensure Android SDK/NDK are installed via Unity Hub.
-   - For iOS: Build to Xcode project and open in Xcode for deployment.
+### 🎮 Gameplay
+<p align="center">
+  <img src="Output_Images/10.GameScreen.png" width="200" />
+  <img src="Output_Images/11.GameOverPage.png" width="200" />
+  <img src="Output_Images/12.HighScorePage.png" width="200" />
+</p>
 
-6. **Run in Editor** ▶️
-   - Open the desired scene (e.g., `Assets/Scenes/FirebaseAuth.unity` for auth, `Assets/Scenes/SampleScene.unity` for gameplay).
-   - Press Play to test in Unity Editor.
+### ⚠️ Error & Logout
+<p align="center">
+  <img src="Output_Images/06.ErrorDisplay.png" width="200" />
+  <img src="Output_Images/05.LogoutPage.png" width="200" />
+</p>
 
-### Troubleshooting Tips
-- If Firebase doesn't initialize, check console logs for dependency issues.
-- Ensure internet connection for Firebase auth.
-- For ads, configure Unity Ads dashboard with your game ID.
+---
+
+## 🛠️ Tech Stack
+
+| Category   | Technology              |
+|-----------|-------------------------|
+| Engine    | Unity 2021+             |
+| Language  | C#                      |
+| Backend   | Firebase Authentication |
+| Ads       | Unity Ads               |
+| UI        | TextMesh Pro            |
+| Platforms | Android & iOS           |
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Requirements
+- Unity Hub  
+- Unity 2021 or later  
+- Firebase account  
+- Android SDK / Xcode  
+
+---
+
+### 📥 Clone Project
+```bash
+git clone https://github.com/bhavyadoshi12/Zig-Zag_Car_Adventure.git
+cd Zig-Zag_Car_Adventure
+````
+
+---
+
+## 🔥 Firebase Setup
+
+1. Create a Firebase project
+2. Enable **Email/Password Authentication**
+3. Download:
+
+   * `google-services.json` (Android)
+   * `GoogleService-Info.plist` (iOS)
+4. Move files to the `Assets/` folder
+
+---
+
+## ▶️ Run the Game
+
+1. Open the project in **Unity Hub**
+2. Load the scene:
+
+   ```
+   Assets/Scenes/FirebaseAuth.unity
+   ```
+3. Press **Play**
+
+---
+
+## 🏗️ Build for Mobile
+
+1. File → Build Settings
+2. Select Android or iOS
+3. Configure SDKs
+4. Click **Build**
+
+---
 
 ## 🎯 How to Play
 
-1. **Launch the Game** 🎉
-   - Start with the logo scene, then authenticate via Firebase.
+* Sign up / log in
+* Pick a car
+* Tap to switch direction
+* Collect diamonds 💎
+* Don’t fall
+* Beat your high score 🏆
 
-2. **Choose Your Car** 🚙
-   - Select a car in the ChooseCar scene.
+---
 
-3. **Play the Game** 🏁
-   - Tap the screen to switch lanes.
-   - Avoid obstacles and collect diamonds (💎) and stars (⭐).
-   - Survive as long as possible for higher scores.
+## 📁 Project Structure
 
-4. **Game Over & Replay** 🔄
-   - When you crash, view your score and replay.
-   - High scores are saved locally and can be resumed.
+```
+Zig-Zag_Car_Adventure/
+│── Assets/
+│── Output_Images/
+│── Packages/
+│── ProjectSettings/
+│── README.md
+```
 
-## 🛠️ Technologies Used
-
-- **Unity Engine**: Game development platform.
-- **C#**: Scripting language for game logic.
-- **Firebase**: Authentication and backend services.
-- **Unity Ads**: Monetization framework.
-- **TextMesh Pro**: Advanced UI text rendering.
-- **Stylized Vehicles Pack**: Free asset pack for cars.
+---
 
 ## 📝 Notes
 
-- This project is built for educational and entertainment purposes.
-- Firebase config files contain sensitive data; do not commit them to public repos.
-- For production, optimize builds and test on target devices.
-- Contributions welcome! Feel free to fork and improve.
+* 🔒 **Never commit Firebase config files publicly**
+* 📱 Works on modern Android & iOS devices
+* 🎮 Ideal for Unity & game-dev portfolios
 
-Enjoy the game! 🎊 If you have questions, check the scripts in `Assets/Scripts/` for more details.
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Fork → Improve → Pull Request
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub.
+
+---
+
+## 👨‍💻 Author
+
+**Bhavya Ketan Doshi**
