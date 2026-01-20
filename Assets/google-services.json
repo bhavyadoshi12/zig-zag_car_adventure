@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "679563458824",
+    "firebase_url": "https://zig-zag-car-adventure-8527a-default-rtdb.firebaseio.com",
+    "project_id": "zig-zag-car-adventure-8527a",
+    "storage_bucket": "zig-zag-car-adventure-8527a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679563458824:android:30213fa8fcf17afd3554bd",
+        "android_client_info": {
+          "package_name": "com.company.zigzagcaradventure"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdFGvgS1fRH06vwkbnluzREZ0Sck_6e1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

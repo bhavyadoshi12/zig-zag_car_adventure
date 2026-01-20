@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: cf77fe7986ffeae40826f7cb5eb92821
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - starBlast: {fileID: 5492975114020542481, guid: dc8ebe8491d3b9b409bc112a4f1aa4ac, type: 3}
+  - diamondBlast: {fileID: 5285348627429383875, guid: b517148909cb0fb48ab3929c8288c79a, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

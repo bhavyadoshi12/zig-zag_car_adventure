@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://zig-zag-car-adventure-8527a-default-rtdb.firebaseio.com</string>
+  <string name="gcm_defaultSenderId" translatable="false">679563458824</string>
+  <string name="google_storage_bucket" translatable="false">zig-zag-car-adventure-8527a.appspot.com</string>
+  <string name="project_id" translatable="false">zig-zag-car-adventure-8527a</string>
+  <string name="google_api_key" translatable="false">AIzaSyAdFGvgS1fRH06vwkbnluzREZ0Sck_6e1o</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAdFGvgS1fRH06vwkbnluzREZ0Sck_6e1o</string>
+  <string name="google_app_id" translatable="false">1:679563458824:android:30213fa8fcf17afd3554bd</string>
+</resources>
